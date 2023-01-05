@@ -1,0 +1,152 @@
+@font-face {
+    font-family: myFirstFont ;
+    src: url(fontes/idroid.otf) ;
+  }
+
+body {
+    background-color: rgb(213, 226, 138);
+    margin: 0px;
+    padding-top: 0px;
+}
+
+header {
+    background-color: rgb(33, 248, 144);
+    height: 250px;
+    color: white;
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.76), transparent);
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 0px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+header > h2 {
+    font-weight: 100;
+    padding: 15px;
+    margin: auto;
+    width: 540px;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: normal;
+    text-shadow: 1px 1px 5px black;
+}
+
+section > h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+section > h2 {
+    padding: 10px;
+    background-image: linear-gradient(to right, lightgreen, white 40%);
+    margin-left: 11px;
+    border-radius: 5px;
+}
+
+.font-android {
+    font-family: myFirstFont, Arial, Helvetica, sans-serif;
+}
+
+#titulo-principal {
+    font-size: 2.2em;
+    text-indent: 30px;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+nav > a {
+    margin: auto;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+}
+
+a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+    width: 100px;
+    background-color: greenyellow;
+}
+
+main {
+    padding: 0px;
+    margin: auto;
+    background-color: white;
+    width: 1000px;
+}
+
+section p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+#fundo-video {
+    background-color: rgb(20, 68, 20);
+    width: 100%;
+    height: 480px;
+    margin: auto;
+}
+
+section > iframe {
+    padding: 10px;
+    width: 875px;
+    height: 450px;
+    margin: auto;
+    display: block;
+}
+
+#extra {
+    background-color: rgb(176, 243, 176);
+    width: 950px;
+    height: 550px;
+    text-align: justify;
+    border-radius: 10px 10px 5px 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#extra > h1 {
+    background-color: rgb(64, 179, 64);
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    width: 940px;
+    text-align: left;
+    margin: auto;
+}
+
+#extra > p {
+    padding: 10px;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+ul {
+    margin: 0px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(5, 61, 5);
+    text-align: center;
+    padding: 7px;
+}
+
+p {
+    text-indent: 30px;
+    padding: 20px 10px;
+    margin: 0px;
+}
