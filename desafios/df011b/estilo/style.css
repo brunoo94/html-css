@@ -154,10 +154,10 @@ figcaption {
 }
 
 div.video {
-    background-color: var(--cor3);
+    background-color: white;
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom:58%;
+    padding-bottom:57%;
     position: relative;
     
 }
