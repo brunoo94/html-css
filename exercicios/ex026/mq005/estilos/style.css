@@ -11,9 +11,9 @@ body, html {
 }
 
 header {
+    width: 100vw;
     background-color: rgb(75, 75, 75);
     color: rgb(38, 169, 245);
-    text-shadow: 1px 1px 1px #fff;
 }
 
 header h1 {
@@ -22,7 +22,7 @@ header h1 {
 }
 
 #btn-mobile {
-    display: none;
+    display: block;
     width: 100vw;
     background: rgb(75, 75, 75);
     border: 0px;
@@ -49,12 +49,13 @@ menu > ul {
 
 menu a {
     display: block;
-    padding: 10px;
+    padding: 7px;
     text-decoration: none;
     background-color: gray;
     color: #fff;
     text-align: center;
     border-top: 2px solid rgb(214, 214, 214);
+    border-radius: 4px;
 }
 
 menu a:hover {
