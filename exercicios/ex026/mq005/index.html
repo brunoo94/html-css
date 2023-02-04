@@ -12,9 +12,7 @@
 <body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
-        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
-            menu
-        </span>
+        <button id="btn-mobile" onclick="clickMenu()"><img src="../imagens/menu.png" alt=""></button>
         <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -49,7 +47,7 @@
         }
 
         function mudouTamanho() {
-            if(window.innerWidth >= 768) {
+            if(window.innerWidth >= 600) {
                 itens.style.display = 'block'
             } else {
                 itens.style.display = 'none'
